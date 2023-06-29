@@ -12,3 +12,8 @@ Contribuez pour **rendre cette application web fonctionnelle**.
 ## Quick start
 
 Ouvrir le fichier `index.html` ou servez-le en local avec votre serveur local favori.
+
+## Manuel
+pour utiliser la calculatrice veuillez cliquer sur bouton représentant un chiffre puis appuyez sur l'opérateur souhaité afin de réaliser l'opération.
+Choisissez un autre chiffre à opérer.
+Enfin, appuyez sur la touche entrée pour réaliser l'opération
