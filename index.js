@@ -38,6 +38,9 @@ function calculate() {
         break;
       case '*':
         result = parseFloat(firstNumber) * parseFloat(secondNumber);
+        break;
+      case '/':
+        result = parseFloat(firstNumber) / parseFloat(secondNumber);
         break;  
       default:
         return;
