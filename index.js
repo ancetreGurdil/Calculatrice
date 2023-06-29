@@ -2,6 +2,7 @@ let firstNumber = null;
 let operator = null;
 let secondNumber = null;
 
+// fonction permettant de récuperer le chiffre/symbole choisi par l'utilisateur
 function appendNumber(number) {
   const input = document.getElementById("input");
   
@@ -11,7 +12,7 @@ function appendNumber(number) {
     input.value += number;
   }
 }
-
+// fonction permettant de choisir l'opérateur
 function performOperation(selectedOperator) {
   const input = document.getElementById("input");
   
@@ -21,7 +22,7 @@ function performOperation(selectedOperator) {
     input.value = "";
   }
 }
-
+// fonction permettant de calculer en fonction de l'opérateur choisi
 function calculate() {
   const input = document.getElementById("input");
   
@@ -53,6 +54,7 @@ function calculate() {
   }
 }
 
+// fonction permettant de nettoyer le champ input
 function clearInput() {
   const input = document.getElementById("input");
   input.value = "";
